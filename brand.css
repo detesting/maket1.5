@@ -122,17 +122,17 @@ html{
     top: 183px;
 }
 
-.swiper-pagination-bullet-active {
-    background-color: #B5B6BC !important;
-    color: #B5B6BC !important;
-    height: 12px !important;
-    width: 12px !important;
-}
 .swiper-pagination-bullet {
-    background-color: #DDDDDD !important;
-    color: #DDDDDD !important;
+    background: rgb(221, 221, 221) !important;
     height: 12px !important;
     width: 12px !important;
+    opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+    background: rgb(181, 182, 188) !important;
+    height: 12px !important;
+    width: 12px !important;
+    opacity: 1 !important;
 }
 
 .hide{
