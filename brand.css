@@ -1,0 +1,164 @@
+*, *:before, *:after{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    font-family: 'TT Lakes', serif;
+    background-color: #F2F2F2;
+}
+
+html{
+
+}
+
+.body{
+    font-family: 'TT Lakes', serif;
+    background-color: #F2F2F2;
+    min-width: 0;
+}
+
+.header{
+
+}
+.header__text{
+    padding: 16px 32px;
+    margin-bottom: 24px;
+}
+
+.main{
+    display: none;
+}
+
+.brands{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 176px;
+    overflow: hidden;
+    min-width: 0;
+}
+.brands__brand{
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    width: 240px;
+    height: 72px;
+    margin: 8px 16px 8px 32px;
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.brand__img{
+
+    /*padding: 20px 16px;*/
+    object-fit: scale-down;
+
+}
+.brands__link{
+    padding: 16px;
+}
+.link__img{
+
+}
+
+.more{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 8px 8px 8px 8px;
+}
+.more__text{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+}
+.more__img{
+    margin-left: 39px;
+}
+
+.swiper-container{
+    /*width: 100%;*/
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-left: 16px;
+}
+.swiper-wrapper{
+    display: flex;
+}
+.swiper-slide{
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+
+    min-width: 240px;
+    height: 72px;
+    padding-left: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.swiper-pagination{
+    position: relative;
+    top: 183px;
+    color: #B5B6BC;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #B5B6BC !important;
+}
+.swiper-pagination-bullet {
+    background-color: #DDDDDD !important;
+}
+
+.hide{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 8px 8px 8px 8px;
+}
+.hide__text{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+}
+.hide__img{
+    margin-left: 39px;
+}
+
+.showAll{
+    max-height: 100%;
+    overflow: visible;
+}
+.hideButton{
+    display: none;
+}
+
+
+@media (min-width: 767px) {
+    .main{
+        display: block;
+    }
+    .swiper-container{
+        display: none;
+    }
+    html{
+        max-height: 234px;
+    }
+}
