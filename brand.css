@@ -13,7 +13,7 @@ a{
 }
 .button{
     font-family: 'TT Lakes', serif;
-    background-color: #F2F2F2;
+    background: rgb(248, 248, 248);
 }
 
 html{
@@ -26,14 +26,13 @@ html{
     min-width: 0;
     max-width: 1121px;
     margin: 0 auto;
-
 }
 
 .header{
     background: linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%);
 }
 .header__text{
-    padding: 16px 32px;
+    padding: 16px 3vw;
     margin-bottom: 24px;
     margin-left: 3vw;
 }
@@ -85,7 +84,7 @@ html{
     justify-content: flex-start;
     align-items: center;
 
-    margin: 8px 8px 8px 8px;
+    margin: 8px 8px 8px 3vw;
 }
 .more__text{
     font-size: 16px;
@@ -94,7 +93,7 @@ html{
     color: #1B1C21;
 }
 .more__img{
-    margin-left: 39px;
+    margin-left: 3vw;
 }
 
 .swiper-container{
@@ -141,7 +140,7 @@ html{
     justify-content: flex-start;
     align-items: center;
 
-    margin: 8px 8px 8px 8px;
+    margin: 8px 8px 8px 3vw;
 }
 .hide__text{
     font-size: 16px;
@@ -150,7 +149,7 @@ html{
     color: #1B1C21;
 }
 .hide__img{
-    margin-left: 39px;
+    margin-left: 3vw;
 }
 
 .showAll{
