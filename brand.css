@@ -22,12 +22,15 @@ html{
 
 .body{
     font-family: 'TT Lakes', serif;
-    background-color: #F2F2F2;
+    background: #F2F2F2;
     min-width: 0;
+    max-width: 1121px;
+    margin: 0 auto;
+
 }
 
 .header{
-
+    background: linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%);
 }
 .header__text{
     padding: 16px 32px;
@@ -36,6 +39,7 @@ html{
 
 .main{
     display: none;
+
 }
 
 .brands{
@@ -53,7 +57,7 @@ html{
 
     width: 240px;
     height: 72px;
-    margin: 8px 16px 8px 32px;
+    margin: 8px 16px 8px 16px;
 
     display: flex;
     justify-content: space-between;
@@ -115,14 +119,15 @@ html{
 .swiper-pagination{
     position: relative;
     top: 183px;
-    color: #B5B6BC;
 }
 
 .swiper-pagination-bullet-active {
     background-color: #B5B6BC !important;
+    color: #B5B6BC !important;
 }
 .swiper-pagination-bullet {
     background-color: #DDDDDD !important;
+    color: #DDDDDD !important;
 }
 
 .hide{
@@ -159,6 +164,6 @@ html{
         display: none;
     }
     html{
-        max-height: 234px;
+        /*max-height: 234px;*/
     }
 }
